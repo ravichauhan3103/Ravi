@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>
+            Feedback Form
+        </title>
+        <style>
+       #circleborder{
+        border-radius:5px;
+        background:#a6d16b;
+       
+       }
+       #btn{
+        background:#2a3517;
+			border-color:#2a3517; 
+			border-radius:20px;
+			font-size:20px;
+			padding-left:5%;
+			padding-right:5%;
+			padding-top:1%;
+			padding-bottom:1%;
+			color: white;
+       }
+       tr{
+        padding: 10px;
+       }
+        #formborder{
+            background-color:#83c12e;
+            border-style:solid; 
+            border-radius:5px;
+          margin-left: 450px;  width:400px;
+            height:575px;
+        }    
+    </style>
+    </head>
+    <body rel="stylesheet" >
+       <form action="" method="post" enctype="multipart/form-data" id="formborder">
+            <table align="center" style=" border-spacing:10px ;">
+                <tr>
+                    <td colspan="3"><b>Step : 1 Your Details</b></td>
+                </tr>
+                <tr id="circleborder">
+                    <td >Name</td>
+                    <td colspan="2" ><input type="text" name="name" placeholder="First and last name"></td>
+                </tr>
+                <tr id="circleborder">
+                    <td>E-mail</td>
+                    <td colspan="2"><input type="text" name="email" placeholder="example@domain.com" ></td>
+                </tr>
+                <tr id="circleborder">
+                    <td>Phone</td>
+                    <td colspan="2"><input type="text" name="mobile" placeholder="Eg." ></td>
+                </tr>
+                
+           
+                <tr colspan="3">
+                    <td colspan="3"><b>Step : 2 Your Details</b></td>
+                </tr>
+                <tr id="circleborder">
+                    <td>Address</td>
+                    <td colspan="2"><textarea name="address" rows="5" cols="20"></textarea></td>
+                </tr>
+                <tr id="circleborder">
+                    <td>Post Code</td>
+                    <td colspan="2"><input type="text" name="pincode" ></td>
+                </tr>
+                <tr id="circleborder">
+                    <td>Country</td>
+                    <td colspan="2"><input type="text" name="country" ></td>
+                </tr>
+                
+            
+
+                <tr colspan="3">
+                    <td colspan="3"><b>Step : 3 Card Details</b></td>
+                </tr>
+
+                <tr id="circleborder"><td colspan="3">Card Type</td></tr>
+                <tr  id="circleborder">
+                    <td><input type="radio" name="card" value="VISA"><img src="Visa.jpeg" height="10px" width="30px">VISA</td>
+                    <td><input type="radio" name="card" value="AmEx"><img src="amex.png" height="20px" width="20px">AmEx</td>
+                    <td><input type="radio" name="card" value="Mastercard"><img src="master.jpeg" height="10px" width="30px">Mastercard</td>
+                </tr>
+                <tr id="circleborder">
+                    <td>Card Number</td>
+                    <td colspan="2"><input type="text" name="cardno"></td>
+                </tr>
+                <tr id="circleborder">
+                    <td>Security Code</td>
+                    <td colspan="2"><input type="password" name="securitycode"></td>
+                </tr>
+                <tr id="circleborder">
+                    <td>Name on Card</td>
+                    <td colspan="2"><input type="text" name="nameoncard"></td>
+                </tr>
+            
+
+                <tr><td colspan="3" align="center"><input type="submit" name="submit" value="BUY IT !" id="btn" ></td></tr>
+            </table>
+        </form>
+    </body>
+</html>
